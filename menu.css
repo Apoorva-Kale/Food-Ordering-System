@@ -1,0 +1,85 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background: url(beetroot-1383758_1920.jpg);
+	background-size: cover;
+}
+
+#largebox{
+	padding-top: 200px;
+	padding-left: 400px;
+}
+
+#box1{
+	height: 500px;
+	width: 300px;
+	background: rgb(44,62,80,0.7);
+	float: left;
+}
+
+#box2{
+	height: 500px;
+	width: 300px;
+	background: rgb(44,62,80,0.7);
+	float: left;
+	margin-left: 28px;
+} 
+
+input{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+
+form{
+	width: 240px;
+	text-align: center;
+}
+
+input{
+	text-align: center;
+}
+
+input[type=submit]{
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+
+}
+
+input[type=submit]:hover{
+	color: #fff;
+	background-color: #938bbf;
+}
+
+select{
+	background: #938bbf;
+	color: #fff;
+	padding: 10px;
+	width: 240px;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+	-webkit-appearance: button;
+	outline: none;
+}
+
+footer{
+	padding-top: 500px;
+}

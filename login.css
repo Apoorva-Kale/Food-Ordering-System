@@ -1,0 +1,91 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background: url(beetroot-1383758_1920.jpg);
+	background-size: cover;
+}
+
+.signin{
+	background: rgb(44,62,80,0.7);
+	padding: 40px;
+	width: 250px;
+	margin: auto;
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+
+form{
+	width: 240px;
+	text-align: center;
+}
+
+input{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+
+input[type=submit]{
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+
+}
+
+input[type=submit]:hover{
+	color: #fff;
+	background-color: #938bbf;
+}
+
+h2{
+	color: white;
+}
+
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+
+a:hover{
+	color: #938bbf;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.signin select{
+	background: #938bbf;
+	color: #fff;
+	padding: 10px;
+	width: 240px;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+	-webkit-appearance: button;
+	outline: none;
+}
+
+::placeholder{
+	color: aliceblue;
+}	
+	
+
